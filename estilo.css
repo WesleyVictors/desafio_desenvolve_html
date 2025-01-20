@@ -97,8 +97,9 @@ main h2 {
     margin-right: 2rem;
 }
 #carousel {
-    width: 80%;
-    max-width: 800px;
+   
+    max-width:500px;
+
     max-height: auto;
     display: flex;
     align-items: center;
@@ -169,6 +170,7 @@ main h2 {
 }
 /* icone instagram*/
 .instagram{
+    margin-bottom: 5px;
     position: fixed;
     bottom:120px;
     right: 20px;
@@ -209,6 +211,7 @@ main h2 {
     border: 2px solid #fefefe;
     border-radius: 10px;
     transition: all 0.4s;
+    padding: 10px;
 }
 .pacotes:hover {
     background-color: #181818;
@@ -270,6 +273,7 @@ footer {
     justify-content: space-around;
 }
 #footer_contatos img {
+    
     width: 5%;
     max-width: 200px;
     height: auto;
